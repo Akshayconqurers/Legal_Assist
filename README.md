@@ -1,9 +1,23 @@
+<<<<<<< HEAD
 # GSLO Legal Assist — Mini Legal Portal (Frontend Only)
 
 A responsive mini legal portal built with React + Vite + Tailwind. It simulates authentication and stores user details and legal queries in **LocalStorage** (no backend).
 
 > Visual style inspired by GSLO’s public site aesthetic (demo only, not affiliated).
 
+=======
+# Legal_Assist
+
+# GSLO Legal Assist — Mini Legal Portal 
+
+A responsive mini legal portal built with React + Vite + Tailwind.  
+It simulates authentication and stores user details and legal queries in **LocalStorage** (no backend).
+
+> Visual style inspired by GSLO’s public site aesthetic (demo only, not affiliated).
+
+---
+
+>>>>>>> 27d0efbab3dd86d900ff686e4581b693a946b2e6
 ## Tech Stack
 - React 18 + Vite
 - Tailwind CSS
@@ -11,6 +25,11 @@ A responsive mini legal portal built with React + Vite + Tailwind. It simulates 
 - React Hook Form + Yup
 - LocalStorage (demo data)
 
+<<<<<<< HEAD
+=======
+---
+
+>>>>>>> 27d0efbab3dd86d900ff686e4581b693a946b2e6
 ## Features
 - Home page with hero, GSLO-style practice areas, and CTA
 - Login/Signup with validation
@@ -19,10 +38,16 @@ A responsive mini legal portal built with React + Vite + Tailwind. It simulates 
 - Responsive navbar and layout (mobile-first)
 - Protected routes (redirects unauthenticated users to /auth)
 
+<<<<<<< HEAD
+=======
+---
+
+>>>>>>> 27d0efbab3dd86d900ff686e4581b693a946b2e6
 ## Getting Started
 ```bash
 npm install
 npm run dev
+<<<<<<< HEAD
 ```
 Then open the local URL printed by Vite.
 
@@ -52,3 +77,5 @@ Add your screenshots here: Home, Auth, Dashboard.
 ## Notes
 - All data is stored per-user using keys: `legassist_user`, `legassist_queries:<email>`.
 - This is a frontend-only assignment; no backend or API calls.
+=======
+>>>>>>> 27d0efbab3dd86d900ff686e4581b693a946b2e6
